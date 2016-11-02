@@ -1,0 +1,18 @@
+from time import sleep
+
+name = input("What is your name?")
+address = input("\nWhat is your address?")
+phoneNumber = input("\nWhat is your phone number?")
+major = input("\nWhat is your major?")
+sleep(1)
+print("\nYour name is", name)
+sleep(2)
+print("\nYour address is", address)
+sleep(2)
+print("\nYour phone number is", phoneNumber)
+sleep(2)
+print("\nand your major is", major)
+sleep(7)
+print("\n\n\n\nHello,",name)
+sleep(5)
+print("\n\n\nI know you.\n\n\n\n")
