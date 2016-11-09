@@ -78,7 +78,7 @@ def checkSquare(matrix):
     for element in range(8):
         place = values[element]
         if not place == 15:
-            print("Not a Lo Shu Magic Square")
+            print("\nNot a Lo Shu Magic Square")
             bool = False
             break
     if bool == True:
@@ -88,8 +88,7 @@ def checkSquare(matrix):
 def main():
     run = True
     while run:
-        # matrix = getMatrix()
-        matrix = [[4,9,2],[3,5,7],[8,1,6]]
+        matrix = getMatrix()
         checkSquare(matrix)
         while run:
             check = input("Would you like to check another Square?\tY/N")
