@@ -93,9 +93,11 @@ def main():
         checkSquare(matrix)
         while run:
             check = input("Would you like to check another Square?\tY/N")
-            if check.lower == "n":
+            if check.lower() == "n":
                 run = False
-            elif not check.lower == "y":
+            elif check.lower() == "y":
+                break
+            elif not check.lower() == "y":
                 print("Invalid input, Please re-enter.\n**")
 
 
