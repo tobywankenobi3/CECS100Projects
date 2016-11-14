@@ -96,7 +96,7 @@ def main():
                 run = False
             elif check.lower() == "y":
                 break
-            elif not check.lower() == "y":
+            else:
                 print("Invalid input, Please re-enter.\n**")
 
 
