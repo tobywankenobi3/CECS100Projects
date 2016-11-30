@@ -7,22 +7,22 @@ newmessage = ""
 
 
 # Encrypt
-def encrypt():
+def encrypt(type):
     print("unfinished")
 
 # Decrypt
-def decrypt():
+def decrypt(type):
     print("unfinished")
 
 # Cipher Selection
 def select(choice):
     run = True
     while run:
-        selection = input("What's poppin Jimbo?")
+        selection = input("What's poppin Jimbo?\n- Caesar Shift\n- Claw")
         if choice == "encrypt":
-
+            encrypt(selection)
         if choice == "decrypt":
-
+            decrypt(selection)
 
 # Display File Text - Anfernee
 def display():
