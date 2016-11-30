@@ -1,23 +1,39 @@
 """Cipher Encryptor and Decrypter"""
 
+file = open('Message', 'r+')
+original = file.readlines
+message = file.readlines()
+newmessage = ""
+
+
 # Encrypt
 
 # Decrypt
 
 # Cipher Selection
 
-# File Read
-
 # Display File Text
+def display():
+    print("Original Message: "+message)
+    if not message == original:
+        print("New Message: "+message)
 
-# Enigma Creator
+# Enigma Creator -
 
-# Caesar Shift Creator
+# Caesar Shift Creator -
+def caesar():
+    print(message)
 
-# Claw Creator
+# Claw Creator - Sean
+def claw():
+    for letter in message:
+        if letter == 'a':
+            letter = "|"
+            newmessage.
 
 def main():
     print("Shite")
+    caesar()
 
-#Sean is gay
+
 main()
