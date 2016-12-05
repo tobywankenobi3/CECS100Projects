@@ -15,7 +15,10 @@ def encrypt(type):
 
 # Decrypt
 def decrypt(type):
-    print("unfinished")
+    if type == "claw":
+        claw()
+    elif type == "ceasar":
+        ceasar()
 
 # Cipher Selection
 def select(choice):
